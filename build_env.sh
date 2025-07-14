@@ -30,7 +30,8 @@ export http_proxy='10.249.36.23:8243'
 export https_proxy='10.249.36.23:8243'
 git clone https://github.com/NVIDIA/apex
 cd apex
-
+# 清理之前可能的缓存
+python setup.py clean
 python setup.py install --cpp_ext --cuda_ext
 
 

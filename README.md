@@ -1,3 +1,8 @@
+## 环境安装 & 运行
+
+build_env.sh
+
+
 # FLUX
 by Black Forest Labs: https://bfl.ai.
 
